@@ -1,0 +1,102 @@
+﻿/*body
+{
+    background-color: White;
+    background-size: 100%;
+    background-attachment:fixed;
+    background-image: url(meme_bg.jpg);
+    background-repeat: repeat-y;
+}*/
+
+
+html 
+{ 
+	background: url(meme_bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+h1 
+{
+    font-family:Arial, Helvetica, sans-serif; 
+    color:#000000; 
+    font-size:16pt; 
+    font-weight: bold; 
+    text-align:center;
+    margin: 0 auto;
+    background:no-repeat center center fixed; 
+    background-color: Orange;
+    background-position: center center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    padding-right: 50px;
+
+}
+
+#p1
+{
+	
+    margin-top: 480px;
+    margin-left: 670px;
+	color: White;
+	font-size:16pt; 
+    font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif; 	
+}
+
+#txtfixo1
+{	
+	margin-left: 550px;
+	color: White;
+	font-size:16pt; 
+    font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif; 	
+}
+
+#txtfixo2
+{	
+	margin-left: 600px;
+	color: White;
+	font-size:16pt; 
+    font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif; 	
+}
+
+.btn 
+{
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #496b80);
+  background-image: -moz-linear-gradient(top, #3498db, #496b80);
+  background-image: -ms-linear-gradient(top, #3498db, #496b80);
+  background-image: -o-linear-gradient(top, #3498db, #496b80);
+  background-image: linear-gradient(to bottom, #3498db, #496b80);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  border: dotted #f5fbff 2px;
+  text-decoration: none;
+  
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-110px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

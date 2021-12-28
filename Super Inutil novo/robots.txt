@@ -1,0 +1,19 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /6741575_preview.png
+
+Disallow: /CanineKnobbyHapuka-max-1mb.gif
+
+Disallow: /JScript1.js
+
+Disallow: /noise-transparent.png
+
+Disallow: /no-signal.jpg
+
+Disallow: /robots.txt
+
+Disallow: /style.css
+
+Disallow: /unnamed.png
